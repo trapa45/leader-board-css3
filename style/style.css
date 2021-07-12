@@ -109,7 +109,7 @@ courses styles
 }
 .course-duration{
     background-color: thistle;
-    border-radius: 50%;
+    border-radius: 1000px;
 }
 /* ----------------------
 Media Queries
