@@ -83,6 +83,12 @@ hr{
 /* -----------------------
 courses styles
 -------------------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
 .course .course-banner img{
     width: 224px;
     height: 104px;
@@ -90,6 +96,7 @@ courses styles
 .course-rating{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .fa-star{
     font-size: 12px;
@@ -99,4 +106,8 @@ courses styles
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.course-duration{
+    background-color: thistle;
+    border-radius: 50%;
 }
